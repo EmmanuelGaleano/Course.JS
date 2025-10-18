@@ -49,12 +49,12 @@ console.log("Número de vocales:", contador);
 
 //#6
 
-let numeros = [2, 3, 4, 5];
+let numbers = [2, 3, 4, 5];
 let producto = 1;
 let x = 0;
 
-while (x < numeros.length) {
-  producto *= numeros[x];
+while (x < numbers.length) {
+  producto *= numbers[x];
   x++;
 }
 
@@ -99,3 +99,17 @@ do {
   n2 = siguiente;
   c++;
 } while (c <= 10);
+
+//#10 
+
+const numbers1 = [5, 12, 8, 20, 3, 15];
+const mayoresA10 = [];
+
+for (let i = 0; i < numbers1.length; i++) {
+  if (numbers1[i] > 10) {
+    mayoresA10.push(numbers1[i]);
+  }
+}
+
+console.log("Números mayores a 10:", mayoresA10);
+
