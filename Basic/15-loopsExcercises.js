@@ -111,5 +111,5 @@ for (let i = 0; i < numbers1.length; i++) {
   }
 }
 
-console.log("Números mayores a 10:", mayoresA10);
+console.log("Números mayores a 10:", mayoresA10); 
 
