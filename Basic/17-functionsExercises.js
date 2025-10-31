@@ -96,3 +96,27 @@ function filterEvenNumbers(arr) {
 }
 
 console.log("Even numbers in [1, 2, 3, 4, 5, 6] are:", filterEvenNumbers([1, 2, 3, 4, 5, 6]));
+
+// 9. Create a function that receives a string as a parameter and returns true if the string is a palindrome, false otherwise.
+
+function isPalindrome(str) {    
+    const cleanedStr = str.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
+    const reversedStr = cleanedStr.split('').reverse().join('');
+    return cleanedStr === reversedStr;
+}   
+
+console.log("Is 'racecar' a palindrome?", isPalindrome("racecar"));
+console.log("Is 'hello' a palindrome?", isPalindrome("hello")); 
+
+// 10. Create a function that receives an array of numbers and returns the average of those numbers.
+
+function calculateAverage(arr) {
+    if (arr.length === 0) return 0;
+    let sum = 0;    
+    for (let num of arr) {
+        sum += num;
+    }
+    return sum / arr.length;
+}
+
+console.log("Average of [10, 20, 30, 40, 50] is:", calculateAverage([10, 20, 30, 40, 50]));
