@@ -89,10 +89,4 @@ console.log(obj4.x === obj4.y) // true
 console.log(obj4.x == obj4.y)  // true  
 // because they have the same value
 
-// end of exercises
-
-
-
-
-
-
+// end of exercises.
