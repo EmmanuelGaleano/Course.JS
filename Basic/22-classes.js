@@ -1,4 +1,4 @@
-// Clases
+// Class
 
 class Person {
 
@@ -10,7 +10,7 @@ class Person {
 
 }
 
-// Sintaxis
+// sintax
 
 let person = new Person("Brais", 37, "MoureDev")
 let person2 = new Person("Brais", 37, "MoureDev")
@@ -20,7 +20,7 @@ console.log(person2)
 
 console.log(typeof person)
 
-// Valores por defecto
+// default values
 
 class DefaultPerson {
 
@@ -33,10 +33,9 @@ class DefaultPerson {
 }
 
 let person3 = new DefaultPerson("Brais", 37)
-
 console.log(person3)
 
-// Acceso a propiedades
+// acces to properties
 
 console.log(person3.alias)
 console.log(person3["alias"])
@@ -45,7 +44,7 @@ person3.alias = "MoureDev"
 
 console.log(person3.alias)
 
-// Funciones en clases
+// class functions
 
 class PersonWithMethod {
 
@@ -64,7 +63,7 @@ class PersonWithMethod {
 let person4 = new PersonWithMethod("Brais", 37, "MoureDev")
 person4.walk()
 
-// Propiedades privadas
+// private properties
 
 class PrivatePerson {
 
@@ -84,11 +83,6 @@ class PrivatePerson {
 }
 
 let person5 = new PrivatePerson("Brais", 37, "MoureDev", "IBAN123456789")
-
-// No podemos acceder
-// console.log(person5.bank) 
-// person5.bank = "new IBAN123456789" // bank no es #bank
-
 console.log(person5)
 
 // Getters y Setters
@@ -124,12 +118,7 @@ console.log(person6.name)
 
 person6.bank = "new IBAN123456789"
 
-/*
-Clase 38 - Herencia de clases
-Vídeo: https://youtu.be/1glVfFxj8a4?t=17999
-*/
-
-// Herencia
+// herintance
 
 class Animal {
 
@@ -176,7 +165,7 @@ let myFish = new Fish("MoureFish", 10)
 myFish.swim()
 myFish.sound()
 
-// Métodos estáticos
+// static methods
 
 class MathOperations {
 
