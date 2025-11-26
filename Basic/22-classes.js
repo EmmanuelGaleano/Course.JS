@@ -1,8 +1,3 @@
-/*
-Clase 37 - Clases
-Vídeo: https://youtu.be/1glVfFxj8a4?t=16864
-*/
-
 // Clases
 
 class Person {
