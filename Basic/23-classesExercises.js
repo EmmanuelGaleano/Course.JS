@@ -100,3 +100,4 @@ account.balance = 7000;       // setter
 console.log(account.balance);
 
 account.balance = -100;       // invalid
+console.log(account.balance);
